@@ -1,0 +1,19 @@
+@import url("common.css");
+.body {
+  max-width: 100%;
+  width: 100%;
+}
+.main_content_authorization {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.authorization_pic {
+  max-width: 100%;
+  height: auto;
+  padding: 0 0 20px 0;
+}
+.authorization_pic_img {
+  width: 100%;
+}

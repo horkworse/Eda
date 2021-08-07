@@ -1,0 +1,143 @@
+.main_content_menu {
+  font-family: Roboto;
+  font-weight: bold;
+}
+.menu_banner {
+  padding: 20px 0 0 0;
+  max-width: 100%;
+  height: auto;
+}
+.menu_banner_pic {
+  padding: 0 3% 0 3%;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.menu_list_tabs {
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.tab {
+  font-size: 36pt;
+}
+.tab_color {
+  color: #000;
+}
+.tab:hover > .tab_color {
+  color: #00ff1f;
+}
+.tab:active > .tab_color {
+  color: #04d70b;
+}
+.menu_line {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15);
+}
+.menu_items_drinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0 0 0;
+}
+.menu_items_pic {
+  width: 300px;
+  height: 200px;
+}
+.menu_items_pc {
+  height: 250px;
+  width: 300px;
+  padding: 0 0 0 20px;
+}
+.menu_items_drinks_pic {
+  max-height: 100%;
+  height: 100%;
+}
+.menu_name_cost_quantity {
+  display: flex;
+  flex-direction: column;
+  padding: 7% 25% 0 0;
+}
+.menu_name {
+  font-size: 30pt;
+}
+.menu_cost_quantity {
+  display: flex;
+  flex-direction: row;
+  font-size: 30pt;
+}
+.quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2px 0 0 0;
+}
+.quantity_pic {
+  max-width: 100%;
+  width: 100%;
+  padding: 0 5px 0 10px;
+}
+.quantity_basket_pic {
+  max-width: 30px;
+  width: 30px;
+}
+.quantity_num {
+  color: #05960b;
+  font-size: 28pt;
+}
+.menu_bottom_add {
+  padding: 7% 7% 0 0;
+}
+.menu_bottom_add_pic {
+  width: 80px;
+}
+.menu_items_dishes {
+  display: flex;
+  flex-direction: column;
+}
+.menu_items_dishes_text {
+  font-size: 30pt;
+  font-weight: bolder;
+}
+.menu_items_dishes_salad {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0 20px 0;
+}
+.menu_items_dish_pic {
+  max-width: 100%;
+  width: 100%;
+}
+.menu_name_cost_quantity_s {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 17% 0 0;
+}
+.menu_cost_quantity_s {
+  display: flex;
+  flex-direction: row;
+  font-size: 30pt;
+}
+.quantity_s {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.quantity_pic_s {
+  max-width: 100%;
+  width: 100%;
+  padding: 0 5px 0 10px;
+}
+.quantity_basket_pic_s {
+  max-width: 30px;
+  width: 30px;
+}
+.menu_bottom_add_s {
+  padding: 5% 7.5% 0 0;
+}
+.menu_name_cost_quantity_sс {
+  display: flex;
+  flex-direction: column;
+  padding: 5% 12% 0 0;
+}

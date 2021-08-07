@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="media/styles/main_authorization.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="media/scripts/maskinput.js"></script>
+    <script type="text/javascript">
+        jQuery(function($){
+            $("#tel").mask("+7(999) 999-9999");
+        });
+    </script>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="main_content_authorization">
+    <div class="authorization_pic">
+        <img class="authorization_pic_img" src="media/images/authorization.svg">
+    </div>
+    <div class="authorization_text">
+        Добро <br>пожаловать!
+    </div>
+    <div class="authorization_buttons">
+        <div class="tele">
+            <input class="telep" type="tel" id="tel" name="tel" placeholder="Введите ваш телефон">
+        </div>
+        <a href="#" class="button_reg_link">
+            <button class="button button_registration">
+                Получить СМС-код
+            </button>
+        </a>
+    </div>
+</div>
+</body>
+</html>
