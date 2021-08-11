@@ -1,21 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="media/styles/main_authorization.css">
+    <link rel="stylesheet" href="media/styles/registration_form.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="media/scripts/maskinput.js"></script>
-    <script type="text/javascript">
-        jQuery(function($){
-            $("#code").mask("999999");
-        });
-    </script>
     <meta charset="UTF-8">
 </head>
 <body>
-бибу соси
+<div class="registration_form_title">
+    <h1 class="title">Регистрация</h1>
+</div>
+<div class="registration_point">
+    <div class="fields_titles">
+        Имя
+    </div>
+    <div class="fields">
+        <input type="text" class="name field" placeholder="Иван">
+    </div>
+</div>
+<div class="registration_point">
+    <div class="fields_titles">
+        Фамилия
+    </div>
+    <div class="fields">
+        <input type="text" class="surname field" placeholder="Иванов">
+    </div>
+</div>
+<div class="registration_point">
+    <div class="fields_titles">
+        Электронная почта
+    </div>
+    <div class="fields">
+        <input type="email" class="e-mail field" placeholder="lososik@gmail.com">
+    </div>
+</div>
+<div class="registration_point">
+    <div class="fields_titles">
+        Номер студенческого билета
+    </div>
+    <div class="fields">
+        <input type="text" class="student_number field" placeholder="00000000">
+    </div>
+</div>
+<div class="registration_point">
+    <div class="fields_titles">
+        Дата рождения
+    </div>
+    <div class="fields">
+        <input type="date" class="b-day field" placeholder="07.05.2000">
+    </div>
+</div>
+<div class="accept_form_button">
+    <button class="accept_form">Принять</button>
+</div>
 </body>
 </html>
