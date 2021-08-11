@@ -1,22 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="media/styles/main_authorization.css">
+    <link rel="stylesheet" href="media/styles/registration_code.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="media/scripts/maskinput.js"></script>
+    <script src="https://kit.fontawesome.com/f2bd0c6f3c.js" crossorigin="anonymous"></script>
     <script type="text/javascript">
         jQuery(function($){
-            $("#code").mask("999999");
+            $("#code1").mask("9");
         });
     </script>
+    <script type="text/javascript">
+        jQuery(function($){
+            $("#code2").mask("9");
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(function($){
+            $("#code3").mask("9");
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(function($){
+            $("#code4").mask("9");
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(function($){
+            $("#code5").mask("9");
+        });
+    </script>
+    <script type="text/javascript">
+        jQuery(function($){
+            $("#code6").mask("9");
+        });
+    </script>
+    <meta charset="UTF-8">
 </head>
 <body>
-<div class="tele">
-    <input class="telep" type="code" id="code" name="code" placeholder="Введите код">
+<div class="arrow_back">
+    <i class="fas fa-arrow-left"></i>
 </div>
+<div class="reg_code_title">
+    ПОДТВЕРДИТЕ НОМЕР ТЕЛЕФОНА
+</div>
+<div class="reg_code_text">
+    Мы отправили код на Ваш номер (номер)
+</div>
+<!-- Для этих окошечек надо сделать автоматическое
+переключение на следующее, когда прошлое заполнено -->
+<div class="write_code">
+    <div class="tele">
+        <input class="telep" type="code" id="code1" name="code">
+    </div>
+    <div class="tele">
+        <input class="telep" type="code" id="code2" name="code">
+    </div>
+    <div class="tele">
+        <input class="telep" type="code" id="code3" name="code">
+    </div>
+    <div class="tele">
+        <input class="telep" type="code" id="code4" name="code">
+    </div>
+    <div class="tele">
+        <input class="telep" type="code" id="code5" name="code">
+    </div>
+    <div class="tele">
+        <input class="telep" type="code" id="code6" name="code">
+    </div>
+</div>
+<div class="resent_code">
+    Выслать код повторно через (время)
+</div>
+<div class="resent_code_resent">
+    Выслать код повторно
+</div>
+<!-- Тут надо подкрутить таймер на 60 секунд,
+     отсчет начинается с 59, заканчивается 0. По истечении
+     таймера раскрывается скрытый блок путем передачи ему
+     состояния active -->
 </body>
+<footer class="footer">
+<div class="accept_code">
+    <button class="accept_code_button">
+        Подтвердить номер телефона
+    </button>
+</div>
+</footer>
 </html>
