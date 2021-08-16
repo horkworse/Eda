@@ -2,6 +2,7 @@
   font-family: Roboto;
   margin: 0 100px 0 100px;
   border-radius: 5px;
+  height: 10%;
 }
 .footer_panel {
   display: flex;
@@ -13,6 +14,7 @@
 .footer_menu_button {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .footer_pic {
   width: 100px;
@@ -21,10 +23,14 @@
 .footer_pic_img {
   max-width: 100%;
   width: 100%;
+  align-items: center;
 }
 .footer_text {
   font-size: 24pt;
   font-weight: bold;
+}
+.user {
+  width: 85%;
 }
 .footer_basket_total {
   padding: 10px 0 0 40px;
