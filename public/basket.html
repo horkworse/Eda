@@ -1,10 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="media/styles/basket.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/f2bd0c6f3c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Title</title>
 </head>
 <body>
-
+<header class="header">
+    <div class="basket_title">
+        Корзина
+    <div class="basket_exit">
+        <i class="fa fa-times-circle"></i>
+    </div>
+</header>
+<main class="main">
+    <div class="pick-up_point">
+        <div class="pick-up_address">
+            Адрес выдачи заказа:
+            <div class="address_from_bd">
+                адрес
+            </div>
+        </div>
+        <div class="pick-up_address_change">
+            изменить адрес
+        </div>
+    </div>
+    <div class="basket_dishes">
+        <div class="basket_delete_all">
+            удалить все
+        </div>
+        <!-- Вот эту хрень надо сделать автоматически заполняемой -->
+        <div class="basket_ordered">
+            <div class="order_pic_bd">
+                <img class="pic_bd" src="media/images/spring_sal.svg">
+            </div>
+            <div class="basket_name_and_cost">
+                <div class="ordered_from_bd name">Салат "Весна"</div>
+                <div class="ordered_from_bd cost">
+                    45 ₽
+                </div>
+            </div>
+            <div class="order_quantity_s">
+                <div class="basket_delete_dish">
+                    <i class="fa fa-minus-square"></i>
+                </div>
+                <div class="order_bd_quantity_num">
+                    1
+                </div>
+                <div class="basket_delete_dish">
+                    <i class="fa fa-plus-square"></i>
+                </div>
+            </div>
+        </div>
+        <div class="basket_ordered">
+            <div class="order_pic_bd">
+                <img class="pic_bd" src="media/images/spring_sal.svg">
+            </div>
+            <div class="basket_name_and_cost">
+                <div class="ordered_from_bd name">Салат "Весна"</div>
+                <div class="ordered_from_bd cost">
+                    45 ₽
+                </div>
+            </div>
+            <div class="order_quantity_s">
+                <div class="basket_delete_dish">
+                    <i class="fa fa-minus-square"></i>
+                </div>
+                <div class="order_bd_quantity_num">
+                    1
+                </div>
+                <div class="basket_delete_dish">
+                    <i class="fa fa-plus-square"></i>
+                </div>
+            </div>
+        </div>
+        <div class="basket_ordered">
+            <div class="order_pic_bd">
+                <img class="pic_bd" src="media/images/spring_sal.svg">
+            </div>
+            <div class="basket_name_and_cost">
+                <div class="ordered_from_bd name">Салат "Весна"</div>
+                <div class="ordered_from_bd cost">
+                    45 ₽
+                </div>
+            </div>
+            <div class="order_quantity_s">
+                <div class="basket_delete_dish">
+                    <i class="fa fa-minus-square"></i>
+                </div>
+                <div class="order_bd_quantity_num">
+                    1
+                </div>
+                <div class="basket_delete_dish">
+                    <i class="fa fa-plus-square"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="basket_recommendations">
+        <div class="recommended_dish">
+            <div class="recommended_dish_pic">
+                <img class="dish_pic_rec" src="media/images/pizzaincap.svg">
+            </div>
+            <div class="recommended_dish_name">
+                Пицца в рожке
+            </div>
+            <div class="recommended_dish_cost">
+                100 ₽
+            </div>
+        </div>
+        <div class="recommended_dish">
+            <div class="recommended_dish_pic">
+                <img class="dish_pic_rec" src="media/images/cheezesup.svg">
+            </div>
+            <div class="recommended_dish_name">
+                Сырный крем-суп
+            </div>
+            <div class="recommended_dish_cost">
+                70 ₽
+            </div>
+        </div>
+        <div class="recommended_dish">
+            <div class="recommended_dish_pic">
+                <img class="dish_pic_rec" src="media/images/cheezesup.svg">
+            </div>
+            <div class="recommended_dish_name">
+                Тыквенный крем-суп
+            </div>
+            <div class="recommended_dish_cost">
+                65 ₽
+            </div>
+        </div>
+    </div>
+    <div class="basket_total_cost">
+        <div class="basket_order_cost_text">
+            Сумма заказа
+        </div>
+        <div class="basket_order_cost">
+            245 Р
+        </div>
+    </div>
+    <div class="basket_payment_button_pad">
+        <div class="basket_payment_button">
+            Оплатить
+        </div>
+    </div>
+</main>
 </body>
 </html>
