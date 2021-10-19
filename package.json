@@ -5,6 +5,7 @@
     "gulp-stylus": "^2.7.0"
   },
   "dependencies": {
+    "expo-app-loading": "^1.1.2",
     "gulp": "^4.0.2"
   }
 }

@@ -114,3 +114,17 @@ package-lock.json
 
 # user settings
 .idea
+
+/app_react/node_modules/
+/app_react/.expo/
+/app_react/npm-debug.*
+/app_react/*.jks
+/app_react/*.p8
+/app_react/*.p12
+/app_react/*.key
+/app_react/*.mobileprovision
+/app_react/*.orig.*
+/app_react/web-build/
+
+# macOS
+.DS_Store
