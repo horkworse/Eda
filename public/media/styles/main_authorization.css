@@ -18,16 +18,16 @@
   width: 100%;
 }
 .authorization_text {
-  padding: 0 0 5% 5%;
+  padding: 0 5% 0% 5%;
   font-family: Roboto;
-  font-size: 9em;
+  font-size: 8em;
   font-weight: 500;
   color: #05960b;
 }
 .authorization_buttons {
   display: flex;
   flex-direction: column;
-  padding: 5% 10% 5% 10%;
+  padding: 3% 10% 3% 10%;
   max-width: 100%;
 }
 .button_login_link {

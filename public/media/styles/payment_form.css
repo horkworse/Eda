@@ -1,0 +1,104 @@
+@import url("common.css");
+* {
+  font-family: 'Roboto', sans-serif;
+}
+.payment_form_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.cancellation {
+  font-size: 32pt;
+  color: #05960b;
+  padding: 8% 0 5% 7%;
+}
+.payment_form_title {
+  font-size: 40pt;
+  font-weight: bold;
+  padding: 0 0 2% 7%;
+}
+.security_message {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 5% 7%;
+}
+.security_message_img {
+  font-size: 20pt;
+  color: #05960b;
+}
+.security_message_text {
+  padding: 0 0 0 20px;
+  font-size: 20pt;
+  color: #05960b;
+}
+.card {
+  padding: 5% 0 5% 7%;
+}
+.card_number {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid;
+  font-size: 42pt;
+}
+.card_date_and_cvs {
+  display: flex;
+  flex-direction: row;
+}
+.date {
+  padding: 2% 0 5% 7%;
+}
+.card_date {
+  width: 100%;
+  padding: 30px 50px;
+  margin: 8px 0;
+  font-size: 36pt;
+  background-color: #c4c4c4;
+  border: none;
+  border-radius: 15px;
+}
+.cvs {
+  padding: 2% 0 5% 1%;
+}
+.card_cvs {
+  width: 70%;
+  padding: 30px 50px;
+  margin: 8px 0;
+  font-size: 36pt;
+  background-color: #c4c4c4;
+  border: none;
+  border-radius: 15px;
+}
+.pf_button {
+  padding: 5% 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.payment_form_button {
+  width: 90%;
+  padding: 40px 50px;
+  margin: 8px 0;
+  font-size: 36pt;
+  background-color: #05960b;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}
+.pf_button_save {
+  padding: 5% 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.payment_form_button_save {
+  width: 90%;
+  padding: 40px 50px;
+  margin: 8px 0;
+  font-size: 36pt;
+  background-color: #05960b;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+}

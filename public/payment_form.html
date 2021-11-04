@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="media/styles/main_menu.css">
+    <link rel="stylesheet" href="media/styles/payment_form.css">
+    <script src="https://use.fontawesome.com/13ce757ec2.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f2bd0c6f3c.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="media/scripts/maskinput.js"></script>
+    <script>
+        jQuery(function($){
+            $("#card_num").mask("9999 9999 9999");
+        });
+    </script>
+    <script>
+        jQuery(function($){
+            $("#card_date").mask("99/99");
+        });
+    </script>
+    <script>
+        jQuery(function($){
+            $("#card_cvs").mask("999");
+        });
+    </script>
 </head>
 <body>
-
+<main class="payment_form_main">
+    <a class="cancellation" href="menu.html">Отмена</a>
+    <div class="payment_form_title">Платежная система</div>
+    <div class="security_message">
+        <div class="security_message_img"><i class="fa fa-lock" aria-hidden="true"></i></div>
+        <div class="security_message_text">Ваши данные в безопасности</div>
+    </div>
+    <div class="card">
+        <input class="card_number" type="card_num" id="card_num" name="card_num" placeholder="Введите номер карты">
+    </div>
+    <div class="card_date_and_cvs">
+        <div class="date">
+            <input class="card_date" type="card_date" id="card_date" name="card_cvs" placeholder="Дата истечения">
+        </div>
+        <div class="cvs">
+            <input class="card_cvs" type="card_cvs" id="card_cvs" name="card_cvs" placeholder="CVS/CVV">
+        </div>
+    </div>
+    <div class="pf_button"><button class="payment_form_button">Оплатить</button></div>
+    <div class="pf_button_save"><button class="payment_form_button_save">Сохранить карту</button></div>
+</main>
 </body>
 </html>
