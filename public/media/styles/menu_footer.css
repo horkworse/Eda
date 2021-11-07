@@ -1,5 +1,7 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
 .menu_footer {
-  font-family: Roboto;
   margin: 0 100px 0 100px;
   border-radius: 5px;
   height: 10%;
@@ -26,7 +28,7 @@
   align-items: center;
 }
 .footer_text {
-  font-size: 24pt;
+  font-size: 28pt;
   font-weight: bold;
 }
 .user {
