@@ -12,7 +12,7 @@
     <script src="media/scripts/maskinput.js"></script>
     <script>
         jQuery(function($){
-            $("#card_num").mask("9999 9999 9999");
+            $("#card_num").mask("9999 9999 9999 9999");
         });
     </script>
     <script>
@@ -45,7 +45,7 @@
             <input class="card_cvs" type="card_cvs" id="card_cvs" name="card_cvs" placeholder="CVS/CVV">
         </div>
     </div>
-    <div class="pf_button"><button class="payment_form_button">Оплатить</button></div>
+    <div class="pf_button"><button onclick="document.location='menu.html'" class="payment_form_button">Оплатить</button></div>
     <div class="pf_button_save"><button class="payment_form_button_save">Сохранить карту</button></div>
 </main>
 </body>
